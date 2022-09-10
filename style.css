@@ -76,7 +76,7 @@
     width: 12rem;
     border-radius: 50px;
     background-color: hsl(0, 0%, 95%);
-    border: 2px solid  hsl(0, 0%, 95%);
+    border: 3px solid  hsl(0, 0%, 95%);
 
 
 }
@@ -94,13 +94,14 @@
 }
 
 .btn:hover {
-    border: 2px solid  hsl(0, 0%, 95%);
+    border: 3px solid  hsl(0, 0%, 95%);
     background-color: transparent;
     color: white;
+    transition: all .5s ease-in-out;
 }
 
 
- @media  (max-width: 375px){
+ @media  (max-width: 768px){
     .container {
         height: 150vh;
     }
